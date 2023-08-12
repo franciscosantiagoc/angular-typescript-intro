@@ -6,8 +6,9 @@ import './style.css'
 //import './topics/03-functions.ts'
 //import './topics/04-homework-types.ts';
 //import './topics/05.Desestructuracion.ts'
+//import './topics/05.1-Array-desestructuracion'
 
-import './topics/05.1-Array-desestructuracion'
+import './topics/06-function-desestructuracion.ts'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   texto de prueba
 `;
