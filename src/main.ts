@@ -8,8 +8,10 @@ import './style.css'
 //import './topics/05.Desestructuracion.ts'
 //import './topics/05.1-Array-desestructuracion'
 //import './topics/06-function-desestructuracion.ts'
+//import './topics/07-imports-exports.ts'
 
-import './topics/07-imports-exports.ts'
+
+import './topics/08-clases';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   texto de prueba
