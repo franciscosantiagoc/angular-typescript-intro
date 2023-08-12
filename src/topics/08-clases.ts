@@ -13,7 +13,18 @@ export class Person {
     ) {} 
 }
 
+export class Hero extends Person {
+    constructor(
+        public nickname: string,
+        public age: number,
+        public realName: string
+    ){
+        super(realName, 'New York')
+    }
+}
 
-const iron = new Person('Francisco', 'Atlanta');
+
+//const iron = new Person('Francisco', 'Atlanta');
+const iron = new Hero('Misterio', 28, 'Tony');
 
 console.log('iron :>> ', iron);
