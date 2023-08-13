@@ -11,8 +11,9 @@ import './style.css'
 //import './topics/07-imports-exports.ts'
 //import './topics/08-clases';
 //import './topics/09-generics.ts';
+//import './topics/10-decoradores.ts';
 
-import './topics/10-decoradores.ts';
+import './topics/11-optional-chaining.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   texto de prueba
