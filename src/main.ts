@@ -10,9 +10,9 @@ import './style.css'
 //import './topics/06-function-desestructuracion.ts'
 //import './topics/07-imports-exports.ts'
 //import './topics/08-clases';
+//import './topics/09-generics.ts';
 
-
-import './topics/09-generics.ts';
+import './topics/10-decoradores.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   texto de prueba
